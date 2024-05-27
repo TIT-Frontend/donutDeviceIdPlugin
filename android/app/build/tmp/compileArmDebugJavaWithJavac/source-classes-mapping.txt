@@ -1,0 +1,2 @@
+com/tencent/dountapp/BuildConfig.java
+ com.tencent.dountapp.BuildConfig

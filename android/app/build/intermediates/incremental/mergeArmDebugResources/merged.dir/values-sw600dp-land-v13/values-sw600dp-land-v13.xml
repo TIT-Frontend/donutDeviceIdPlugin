@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item format="float" name="wmpf_qrlogin_body_vertical_percent_value" type="dimen">0.469</item>
+    <item format="float" name="wmpf_setting_body_vertical_percent_value" type="dimen">0.44</item>
+    <fraction name="wmpf_qrlogin_body_vertical_percent">@dimen/wmpf_qrlogin_body_vertical_percent_value</fraction>
+    <fraction name="wmpf_setting_body_vertical_percent">@dimen/wmpf_setting_body_vertical_percent_value</fraction>
+</resources>

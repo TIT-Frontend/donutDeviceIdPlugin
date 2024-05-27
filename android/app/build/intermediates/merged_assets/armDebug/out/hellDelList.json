@@ -1,0 +1,199 @@
+{
+  "delList": [
+    {
+      "class": "android/net/wifi/WifiManager",
+      "method": [
+        {
+          "opCode": 182,
+          "name": "startScan",
+          "desc": "()Z"
+        },
+        {
+          "opCode": 182,
+          "name": "getScanResults",
+          "desc": "()Ljava/util/List;"
+        },
+        {
+          "opCode": 182,
+          "name": "getConnectionInfo",
+          "desc": "()Landroid/net/wifi/WifiInfo;"
+        },
+        {
+          "opCode": 182,
+          "name": "getConfiguredNetworks",
+          "desc": "()Ljava/util/List;"
+        }
+      ]
+    },
+    {
+      "class": "android/telephony/TelephonyManager",
+      "method": [
+        {
+          "opCode": 182,
+          "name": "getAllCellInfo",
+          "desc": "()Ljava/util/List;"
+        },
+        {
+          "opCode": 182,
+          "name": "getCellLocation",
+          "desc": "()Landroid/telephony/CellLocation;"
+        },
+        {
+          "opCode": 182,
+          "name": "getSubscriberId",
+          "desc": "()Ljava/lang/String;"
+        },
+        {
+          "opCode": 182,
+          "name": "getLine1Number",
+          "desc": "()Ljava/lang/String;"
+        },
+        {
+          "opCode": 182,
+          "name": "getDeviceId",
+          "desc": "()Ljava/lang/String;"
+        },
+        {
+          "opCode": 182,
+          "name": "getDeviceId",
+          "desc": "(I)Ljava/lang/String;"
+        },
+        {
+          "opCode": 182,
+          "name": "getImei",
+          "desc": "()Ljava/lang/String;"
+        },
+        {
+          "opCode": 182,
+          "name": "getImei",
+          "desc": "(I)Ljava/lang/String;"
+        },
+        {
+          "opCode": 182,
+          "name": "getMeid",
+          "desc": "()Ljava/lang/String;"
+        },
+        {
+          "opCode": 182,
+          "name": "getMeid",
+          "desc": "(I)Ljava/lang/String;"
+        },
+        {
+          "opCode": 182,
+          "name": "getSimSerialNumber",
+          "desc": "()Ljava/lang/String;"
+        }
+      ]
+    },
+    {
+      "class": "android/bluetooth/BluetoothAdapter",
+      "method": [
+        {
+          "opCode": 182,
+          "name": "startDiscovery",
+          "desc": "()Z"
+        },
+        {
+          "opCode": 182,
+          "name": "startLeScan",
+          "desc": "(Landroid/bluetooth/BluetoothAdapter$LeScanCallback;)Z"
+        },
+        {
+          "opCode": 182,
+          "name": "startLeScan",
+          "desc": "([Ljava/util/UUID;Landroid/bluetooth/BluetoothAdapter$LeScanCallback;)Z"
+        }
+      ]
+    },
+    {
+      "class": "android/bluetooth/le/BluetoothLeScanner",
+      "method": [
+        {
+          "opCode": 182,
+          "name": "startScan",
+          "desc": "(Landroid/bluetooth/le/ScanCallback;)V"
+        },
+        {
+          "opCode": 182,
+          "name": "startScan",
+          "desc": "(Ljava/util/List;Landroid/bluetooth/le/ScanSettings;Landroid/bluetooth/le/ScanCallback;)V"
+        },
+        {
+          "opCode": 182,
+          "name": "startScan",
+          "desc": "(Ljava/util/List;Landroid/bluetooth/le/ScanSettings;Landroid/app/PendingIntent;)I"
+        }
+      ]
+    },
+    {
+      "class": "java/net/NetworkInterface",
+      "method": [
+        {
+          "opCode": 182,
+          "name": "getHardwareAddress",
+          "desc": "()[B"
+        }
+      ]
+    },
+    {
+      "class": "java/lang/Runtime",
+      "method": [
+        {
+          "opCode": 182,
+          "name": "exec",
+          "desc": "(Ljava/lang/String;)Ljava/lang/Process;"
+        }
+      ]
+    },
+    {
+      "class": "android/net/wifi/WifiInfo",
+      "method": [
+        {
+          "opCode": 182,
+          "name": "getMacAddress",
+          "desc": "()Ljava/lang/String;"
+        }
+      ]
+    },
+    {
+      "class": "android/content/pm/PackageManager",
+      "method": [
+        {
+          "opCode": 182,
+          "name": "getInstalledPackages",
+          "desc": "(I)Ljava/util/List;"
+        },
+        {
+          "opCode": 182,
+          "name": "getInstalledApplications",
+          "desc": "(I)Ljava/util/List;"
+        },
+        {
+          "opCode": 182,
+          "name": "queryIntentActivities",
+          "desc": "(Landroid/content/Intent;I)Ljava/util/List;"
+        }
+      ]
+    },
+    {
+      "class": "android/app/ApplicationPackageManager",
+      "method": [
+        {
+          "opCode": 182,
+          "name": "getInstalledPackages",
+          "desc": "(I)Ljava/util/List;"
+        },
+        {
+          "opCode": 182,
+          "name": "getInstalledApplications",
+          "desc": "(I)Ljava/util/List;"
+        },
+        {
+          "opCode": 182,
+          "name": "queryIntentActivities",
+          "desc": "(Landroid/content/Intent;I)Ljava/util/List;"
+        }
+      ]
+    }
+  ]
+}

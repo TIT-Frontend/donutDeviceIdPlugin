@@ -1,0 +1,16 @@
+#Tue Mar 26 17:06:16 CST 2024
+path.4=classes_0.dex
+path.3=classes3.dex
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+base.4=/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/dex/armDebug/mergeLibDexArmDebug/classes_0.dex
+base.3=/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/dex/armDebug/mergeExtDexArmDebug/classes3.dex
+base.2=/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/dex/armDebug/mergeExtDexArmDebug/classes2.dex
+base.1=/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/dex/armDebug/mergeProjectDexArmDebug/classes.dex
+base.0=/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/dex/armDebug/mergeExtDexArmDebug/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.4=classes5.dex

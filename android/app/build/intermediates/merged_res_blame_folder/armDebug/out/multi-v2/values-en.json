@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/incremental/mergeArmDebugResources/merged.dir/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,103,151,199,247,295,343,391,439,487,535,583,633,686,731,778,827,874,923,977",
+                        "endColumns": "47,47,47,47,47,47,47,47,47,47,47,49,52,44,46,48,46,48,53,45",
+                        "endOffsets": "98,146,194,242,290,338,386,434,482,530,578,628,681,726,773,822,869,918,972,1018"
+                    }
+                }
+            ]
+        }
+    ]
+}

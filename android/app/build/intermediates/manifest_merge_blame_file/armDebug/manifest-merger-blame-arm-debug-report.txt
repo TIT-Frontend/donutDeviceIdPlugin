@@ -1,0 +1,884 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.dountapp"
+4    android:versionCode="100"
+5    android:versionName="0.0.1" >
+6
+7    <uses-sdk
+7-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:5:5-59
+8        xmlns:android="http://schemas.android.com/apk/res/android"
+8-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:7:9-67
+9        android:minSdkVersion="21"
+9-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:5:5-59
+10        android:targetSdkVersion="29" />
+10-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:5:5-59
+11
+12    <uses-permission
+12-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:6:5-67
+13        xmlns:android="http://schemas.android.com/apk/res/android"
+13-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:31:9-67
+14        android:name="android.permission.INTERNET" /> <!-- 网络通信 -->
+14-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:6:22-64
+15    <uses-permission
+15-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:7:5-79
+16        xmlns:android="http://schemas.android.com/apk/res/android"
+16-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:34:9-67
+17        android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:7:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:8:5-81
+18-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:8:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:9:5-79
+19-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:10:5-71
+20-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:10:22-68
+21    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+21-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:11:5-83
+21-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:11:22-80
+22
+23    <queries package="com.tencent.dountapp" >
+23-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:13:5-15:15
+23-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:12:14-40
+24        <package android:name="com.tencent.mm" />
+24-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:14:9-50
+24-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:14:18-47
+25
+26        <intent>
+26-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:13:9-16:18
+27            <action android:name="android.media.action.IMAGE_CAPTURE" >
+27-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:14:13-15:22
+27-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:14:21-70
+28            </action>
+29        </intent>
+30        <intent>
+30-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:17:9-20:18
+31            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" >
+31-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:18:13-19:22
+31-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:18:21-77
+32            </action>
+33        </intent>
+34    </queries>
+35
+36    <!-- 适配Android R包可见性 结束 -->
+37    <uses-permission
+37-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:24:5-26:53
+38        xmlns:android="http://schemas.android.com/apk/res/android"
+38-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:25:9-67
+39        android:name="android.permission.VIBRATE" />
+39-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:26:9-50
+40    <uses-permission
+40-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:27:5-29:56
+41        xmlns:android="http://schemas.android.com/apk/res/android"
+41-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:28:9-67
+42        android:name="android.permission.ALARM_LOCK" />
+42-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:29:9-53
+43    <uses-permission
+43-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:36:5-38:55
+44        xmlns:android="http://schemas.android.com/apk/res/android"
+44-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:37:9-67
+45        android:name="android.permission.WAKE_LOCK" />
+45-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:38:9-52
+46    <uses-permission
+46-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:39:5-41:63
+47        xmlns:android="http://schemas.android.com/apk/res/android"
+47-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:40:9-67
+48        android:name="android.permission.ACCESS_WIFI_STATE" />
+48-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:41:9-60
+49    <uses-permission
+49-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:42:5-44:68
+50        xmlns:android="http://schemas.android.com/apk/res/android"
+50-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:43:9-67
+51        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+51-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:44:9-65
+52
+53    <permission
+53-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:46:5-49:47
+54        xmlns:android="http://schemas.android.com/apk/res/android"
+54-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:47:9-67
+55        android:name="com.tencent.dountapp.vfs.broadcast"
+55-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:48:9-54
+56        android:protectionLevel="signature" />
+56-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:49:9-44
+57
+58    <uses-permission
+58-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:51:5-53:57
+59        xmlns:android="http://schemas.android.com/apk/res/android"
+59-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:52:9-67
+60        android:name="com.tencent.dountapp.vfs.broadcast" />
+60-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:53:9-54
+61    <uses-permission
+61-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:54:5-56:73
+62        xmlns:android="http://schemas.android.com/apk/res/android"
+62-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:55:9-67
+63        android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+63-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:56:9-70
+64    <uses-permission
+64-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:57:5-60:35
+65        xmlns:android="http://schemas.android.com/apk/res/android"
+65-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:58:9-67
+66        android:name="android.permission.CAMERA"
+66-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:59:9-49
+67        android:required="true" />
+67-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:60:9-32
+68
+69    <uses-feature
+69-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:62:5-65:35
+70        xmlns:android="http://schemas.android.com/apk/res/android"
+70-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:63:9-67
+71        android:name="android.hardware.camera"
+71-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:64:9-47
+72        android:required="true" />
+72-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:65:9-32
+73    <uses-feature
+73-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:66:5-69:36
+74        xmlns:android="http://schemas.android.com/apk/res/android"
+74-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:67:9-67
+75        android:name="android.hardware.camera.autofocus"
+75-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:68:9-57
+76        android:required="false" />
+76-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:69:9-33
+77
+78    <uses-permission
+78-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:71:5-73:66
+79        xmlns:android="http://schemas.android.com/apk/res/android"
+79-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:72:9-67
+80        android:name="android.permission.CHANGE_NETWORK_STATE" />
+80-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:73:9-63
+81    <uses-permission
+81-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:74:5-76:63
+82        xmlns:android="http://schemas.android.com/apk/res/android"
+82-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:75:9-67
+83        android:name="android.permission.CHANGE_WIFI_STATE" />
+83-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:76:9-60
+84    <uses-permission
+84-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:77:5-79:55
+85        xmlns:android="http://schemas.android.com/apk/res/android"
+85-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:78:9-67
+86        android:name="android.permission.BLUETOOTH" />
+86-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:79:9-52
+87    <uses-permission
+87-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:80:5-82:61
+88        xmlns:android="http://schemas.android.com/apk/res/android"
+88-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:81:9-67
+89        android:name="android.permission.BLUETOOTH_ADMIN" />
+89-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:82:9-58
+90    <uses-permission
+90-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:83:5-85:49
+91        xmlns:android="http://schemas.android.com/apk/res/android"
+91-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:84:9-67
+92        android:name="android.permission.NFC" />
+92-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:85:9-46
+93    <uses-permission
+93-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:86:5-88:67
+94        xmlns:android="http://schemas.android.com/apk/res/android"
+94-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:87:9-67
+95        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+95-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:88:9-64
+96
+97    <permission
+97-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:90:5-93:44
+98        xmlns:android="http://schemas.android.com/apk/res/android"
+98-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:91:9-67
+99        android:name="com.tencent.dountapp.voiceassist.permission.READ"
+99-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:92:9-68
+100        android:protectionLevel="normal" />
+100-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:93:9-41
+101    <permission
+101-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:94:5-97:44
+102        xmlns:android="http://schemas.android.com/apk/res/android"
+102-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:95:9-67
+103        android:name="com.tencent.dountapp.voiceassist.permission.WRITE"
+103-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:96:9-69
+104        android:protectionLevel="normal" />
+104-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:97:9-41
+105
+106    <application
+106-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:17:5-59:19
+107        xmlns:android="http://schemas.android.com/apk/res/android"
+107-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:100:9-67
+108        android:name="com.tencent.dountapp.DemoApplication"
+108-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:18:9-40
+109        android:allowBackup="false"
+109-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:19:9-36
+110        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+110-->[androidx.core:core:1.3.2] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/6cf906aef8b9fe103062eba58d8655f9/core-1.3.2/AndroidManifest.xml:24:18-86
+111        android:debuggable="true"
+112        android:icon="@mipmap/ic_launcher"
+112-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:20:9-43
+113        android:label="@string/app_name"
+113-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:21:9-41
+114        android:persistent="true"
+114-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:22:9-34
+115        android:requestLegacyExternalStorage="true"
+115-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:102:9-52
+116        android:testOnly="true"
+117        android:theme="@style/Theme.App.Global"
+117-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:23:9-48
+118        android:usesCleartextTraffic="true" >
+118-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:103:9-44
+119
+120        <!-- 兼容支持 -->
+121        <uses-library
+121-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:27:9-29:40
+122            android:name="org.apache.http.legacy"
+122-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:28:13-50
+123            android:required="false" />
+123-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:29:13-37
+124
+125        <activity
+125-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:31:9-47:20
+126            android:name="com.tencent.dountapp.ui.MainActivity"
+126-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:32:13-44
+127            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+127-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:33:13-122
+128            android:exported="true"
+128-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:34:13-36
+129            android:theme="@style/Theme.Translucent" >
+129-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:35:13-53
+130            <intent-filter>
+130-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:36:13-40:29
+131                <action android:name="android.intent.action.MAIN" />
+131-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:37:17-69
+131-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:37:25-66
+132
+133                <category android:name="android.intent.category.LAUNCHER" />
+133-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:38:17-77
+133-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:38:27-74
+134                <category android:name="android.intent.category.DEFAULT" />
+134-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:39:17-76
+134-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:39:27-73
+135            </intent-filter>
+136            <intent-filter>
+136-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:41:13-46:29
+137                <action android:name="android.intent.action.VIEW" />
+137-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:42:17-69
+137-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:42:25-66
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:39:17-76
+139-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:39:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:44:17-78
+140-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:44:27-75
+141
+142                <data android:scheme="__placeholder__" />
+142-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:45:23-57
+143            </intent-filter>
+144        </activity>
+145        <activity
+145-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:49:9-52:39
+146            android:name="com.tencent.dountapp.wxapi.WXEntryActivity"
+146-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:50:13-50
+147            android:exported="true"
+147-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:52:13-36
+148            android:launchMode="singleTask" />
+148-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:51:13-44
+149        <activity
+149-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:54:9-57:39
+150            android:name="com.tencent.dountapp.wxapi.WXPayEntryActivity"
+150-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:55:13-53
+151            android:exported="true"
+151-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:57:13-36
+152            android:launchMode="singleTask" />
+152-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:56:13-44
+153        <activity
+153-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:119:9-124:59
+154            android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity0"
+154-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:120:13-83
+155            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+155-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:121:13-122
+156            android:process=":wxa_container0"
+156-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:122:13-46
+157            android:screenOrientation="behind"
+157-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:123:13-47
+158            android:theme="@style/WxaAppContainerTheme" />
+158-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:124:13-56
+159
+160        <activity-alias
+160-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:126:9-128:96
+161            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity0"
+161-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:127:13-107
+162            android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity0" />
+162-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:128:13-93
+163
+164        <activity
+164-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:130:9-135:59
+165            android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity1"
+165-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:131:13-83
+166            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+166-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:132:13-122
+167            android:process=":wxa_container1"
+167-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:133:13-46
+168            android:screenOrientation="behind"
+168-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:134:13-47
+169            android:theme="@style/WxaAppContainerTheme" />
+169-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:135:13-56
+170
+171        <activity-alias
+171-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:137:9-139:96
+172            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity1"
+172-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:138:13-107
+173            android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity1" />
+173-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:139:13-93
+174
+175        <activity
+175-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:141:9-146:59
+176            android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity2"
+176-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:142:13-83
+177            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+177-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:143:13-122
+178            android:process=":wxa_container2"
+178-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:144:13-46
+179            android:screenOrientation="behind"
+179-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:145:13-47
+180            android:theme="@style/WxaAppContainerTheme" />
+180-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:146:13-56
+181
+182        <activity-alias
+182-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:148:9-150:96
+183            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity2"
+183-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:149:13-107
+184            android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity2" />
+184-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:150:13-93
+185
+186        <activity
+186-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:152:9-157:59
+187            android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity3"
+187-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:153:13-83
+188            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+188-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:154:13-122
+189            android:process=":wxa_container3"
+189-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:155:13-46
+190            android:screenOrientation="behind"
+190-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:156:13-47
+191            android:theme="@style/WxaAppContainerTheme" />
+191-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:157:13-56
+192
+193        <activity-alias
+193-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:159:9-161:96
+194            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity3"
+194-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:160:13-107
+195            android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity3" />
+195-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:161:13-93
+196
+197        <activity
+197-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:163:9-168:59
+198            android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity4"
+198-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:164:13-83
+199            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+199-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:165:13-122
+200            android:process=":wxa_container4"
+200-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:166:13-46
+201            android:screenOrientation="behind"
+201-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:167:13-47
+202            android:theme="@style/WxaAppContainerTheme" />
+202-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:168:13-56
+203
+204        <activity-alias
+204-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:170:9-172:96
+205            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity4"
+205-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:171:13-107
+206            android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity4" />
+206-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:172:13-93
+207
+208        <meta-data
+208-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:174:9-176:40
+209            android:name="com.tencent.wmpf.BuildInfo.BUILD_OWNER"
+209-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:175:13-66
+210            android:value="coverguo" />
+210-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:176:13-37
+211        <meta-data
+211-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:177:9-179:36
+212            android:name="com.tencent.wmpf.BuildInfo.BUILD_HOSTNAME"
+212-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:178:13-69
+213            android:value="null" />
+213-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:179:13-33
+214        <meta-data
+214-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:180:9-182:51
+215            android:name="com.tencent.wmpf.BuildInfo.BUILD_TIME"
+215-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:181:13-65
+216            android:value="2023-12-15 16:17:46" />
+216-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:182:13-48
+217        <meta-data
+217-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:183:9-185:72
+218            android:name="com.tencent.wmpf.BuildInfo.BUILD_REV"
+218-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:184:13-64
+219            android:value="fbd024f08109e12b34e54004e92373b11114cca0" />
+219-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:185:13-69
+220        <meta-data
+220-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:186:9-188:37
+221            android:name="com.tencent.wmpf.BuildInfo.BUILD_SDK_VERSION"
+221-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:187:13-72
+222            android:value="2.1.0" />
+222-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:188:13-34
+223        <meta-data
+223-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:189:9-191:42
+224            android:name="com.tencent.wmpf.BuildInfo.BUILD_SDK_VERSION_INT"
+224-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:190:13-76
+225            android:value="0x22010001" />
+225-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:191:13-39
+226        <meta-data
+226-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:192:9-194:42
+227            android:name="com.tencent.wmpf.BuildInfo.BUILD_UPSTREAM_CLIENT_VERSION"
+227-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:193:13-84
+228            android:value="0x28000730" />
+228-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:194:13-39
+229        <meta-data
+229-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:195:9-197:37
+230            android:name="com.tencent.wmpf.BuildInfo.BUILD_WEBGL_MAP_COMP"
+230-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:196:13-75
+231            android:value="false" />
+231-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:197:13-34
+232        <meta-data
+232-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:198:9-200:37
+233            android:name="com.tencent.wmpf.BuildInfo.BUILD_SUPPORT_GAME"
+233-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:199:13-73
+234            android:value="false" />
+234-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:200:13-34
+235        <meta-data
+235-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:201:9-203:37
+236            android:name="com.tencent.wmpf.BuildInfo.BUILD_USE_MINIFIED_LITEAV_SDK"
+236-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:202:13-84
+237            android:value="false" />
+237-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:203:13-34
+238        <meta-data
+238-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:204:9-206:34
+239            android:name="com.tencent.wmpf.BuildInfo.BUILD_PIPELINE_NUM"
+239-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:205:13-73
+240            android:value="-1" />
+240-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:206:13-31
+241
+242        <activity
+242-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:208:9-210:125
+243            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.WxaProfileActivity"
+243-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:209:13-97
+244            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode" />
+244-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:210:13-122
+245        <activity
+245-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:211:9-213:125
+246            android:name="com.tencent.luggage.wxaapi.internal.ui.WxaScanResultDelegateActivity"
+246-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:212:13-96
+247            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode" />
+247-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:213:13-122
+248        <activity
+248-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:214:9-217:50
+249            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerToFrontProxyActivity"
+249-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:215:13-118
+250            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+250-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:216:13-122
+251            android:screenOrientation="behind" />
+251-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:217:13-47
+252
+253        <service
+253-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:219:9-221:40
+254            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCMainService"
+254-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:220:13-97
+255            android:exported="false" />
+255-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:221:13-37
+256        <service
+256-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:222:9-225:49
+257            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService0"
+257-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:223:13-103
+258            android:exported="false"
+258-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:224:13-37
+259            android:process=":wxa_container0" />
+259-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:225:13-46
+260        <service
+260-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:226:9-229:49
+261            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService1"
+261-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:227:13-103
+262            android:exported="false"
+262-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:228:13-37
+263            android:process=":wxa_container1" />
+263-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:229:13-46
+264        <service
+264-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:230:9-233:49
+265            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService2"
+265-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:231:13-103
+266            android:exported="false"
+266-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:232:13-37
+267            android:process=":wxa_container2" />
+267-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:233:13-46
+268        <service
+268-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:234:9-237:49
+269            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService3"
+269-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:235:13-103
+270            android:exported="false"
+270-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:236:13-37
+271            android:process=":wxa_container3" />
+271-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:237:13-46
+272        <service
+272-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:238:9-241:49
+273            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService4"
+273-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:239:13-103
+274            android:exported="false"
+274-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:240:13-37
+275            android:process=":wxa_container4" />
+275-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:241:13-46
+276
+277        <activity
+277-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:243:9-246:67
+278            android:name="com.tencent.mm.ui.AlertActivity"
+278-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:244:13-59
+279            android:configChanges="keyboardHidden|orientation|screenSize"
+279-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:245:13-74
+280            android:theme="@style/WeUITheme.NoTitleTranslucent" />
+280-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:246:13-64
+281
+282        <provider
+282-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:248:9-256:20
+283            android:name="com.luck.picture.lib.basic.PictureFileProvider"
+283-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:249:13-74
+284            android:authorities="com.tencent.dountapp.luckProvider"
+284-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:250:13-64
+285            android:exported="false"
+285-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:251:13-37
+286            android:grantUriPermissions="true" >
+286-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:252:13-47
+287            <meta-data
+287-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:253:13-255:57
+288                android:name="android.support.FILE_PROVIDER_PATHS"
+288-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:254:17-67
+289                android:resource="@xml/ps_file_paths" />
+289-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:255:17-54
+290        </provider>
+291
+292        <service
+292-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:258:9-261:56
+293            android:name="com.luck.picture.lib.service.ForegroundService"
+293-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:259:13-74
+294            android:enabled="true"
+294-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:260:13-35
+295            android:foregroundServiceType="location" />
+295-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:261:13-53
+296
+297        <activity
+297-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:263:9-267:61
+298            android:name="com.luck.picture.lib.basic.PictureSelectorSupporterActivity"
+298-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:264:13-87
+299            android:configChanges="orientation|keyboardHidden|screenSize"
+299-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:265:13-74
+300            android:multiprocess="true"
+300-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:266:13-40
+301            android:theme="@style/Base.Theme.NoActionBar" />
+301-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:267:13-58
+302        <activity
+302-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:268:9-272:64
+303            android:name="com.luck.picture.lib.basic.PictureSelectorTransparentActivity"
+303-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:269:13-89
+304            android:configChanges="orientation|keyboardHidden|screenSize"
+304-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:270:13-74
+305            android:multiprocess="true"
+305-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:271:13-40
+306            android:theme="@style/Picture.Theme.Translucent" />
+306-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:272:13-61
+307
+308        <meta-data
+308-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:274:9-276:36
+309            android:name="use_xweb_camera"
+309-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:275:13-43
+310            android:value="true" />
+310-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:276:13-33
+311        <meta-data
+311-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:277:9-279:37
+312            android:name="use_cpu_crop"
+312-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:278:13-40
+313            android:value="false" />
+313-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:279:13-34
+314
+315        <service
+315-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:281:9-294:19
+316            android:name="com.tencent.mm.plugin.appbrand.jsapi.nfc.hce.HCEService"
+316-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:282:13-83
+317            android:exported="true"
+317-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:283:13-36
+318            android:permission="android.permission.BIND_NFC_SERVICE" >
+318-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:284:13-69
+319            <intent-filter>
+319-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:285:13-289:29
+320                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
+320-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:286:17-93
+320-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:286:25-90
+321
+322                <category android:name="android.intent.category.DEFAULT" />
+322-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:39:17-76
+322-->/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/AndroidManifest.xml:39:27-73
+323            </intent-filter>
+324
+325            <meta-data
+325-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:291:13-293:52
+326                android:name="android.nfc.cardemulation.host_apdu_service"
+326-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:292:17-75
+327                android:resource="@xml/hce_apdu" />
+327-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:293:17-49
+328        </service>
+329
+330        <uses-library
+330-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:296:9-298:40
+331            android:name="com.google.android.maps"
+331-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:297:13-51
+332            android:required="false" />
+332-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:298:13-37
+333        <uses-library
+333-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:299:9-301:40
+334            android:name="com.here.android"
+334-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:300:13-44
+335            android:required="false" />
+335-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:301:13-37
+336
+337        <meta-data
+337-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:303:9-305:67
+338            android:name="TencentMapSDK"
+338-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:304:13-41
+339            android:value="Q3PBZ-TDH3R-4XEWO-WJUMV-YBAUJ-MQBAS" />
+339-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:305:13-64
+340        <meta-data
+340-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:306:9-308:67
+341            android:name="TencentMapSubKey"
+341-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:307:13-44
+342            android:value="E6FBZ-OLSCQ-UIU5C-GWLJ7-ABUPT-V7FJX" />
+342-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:308:13-64
+343
+344        <activity
+344-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:310:9-313:67
+345            android:name="com.tencent.mm.plugin.appbrand.jsapi.lbs.LbsProxyActivity"
+345-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:311:13-85
+346            android:configChanges="keyboardHidden|orientation|screenSize"
+346-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:312:13-74
+347            android:theme="@style/WeUITheme.NoTitleTranslucent" />
+347-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:313:13-64
+348        <activity
+348-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:314:9-316:47
+349            android:name="com.tencent.luggage.sdk.customize.impl.FullSdkExternalToolsHelper$SimpleWebViewActivity"
+349-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:315:13-115
+350            android:launchMode="singleTask" />
+350-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:316:13-44
+351
+352        <provider
+352-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:318:9-321:40
+353            android:name="com.tencent.luggage.storage.StandaloneCriticalDataProvider"
+353-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:319:13-86
+354            android:authorities="com.tencent.dountapp.wxa_critical_content"
+354-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:320:13-72
+355            android:exported="false" />
+355-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:321:13-37
+356
+357        <activity
+357-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:323:9-326:75
+358            android:name="com.tencent.luggage.ui.OpenSDKBridgedActivity"
+358-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:324:13-73
+359            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+359-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:325:13-83
+360            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+360-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:326:13-72
+361
+362        <provider
+362-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:328:9-336:20
+363            android:name="com.tencent.luggage.opensdk.OpenSDKApiContentProvider"
+363-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:329:13-81
+364            android:authorities="com.tencent.dountapp.openapidata"
+364-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:330:13-63
+365            android:exported="false"
+365-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:331:13-37
+366            android:grantUriPermissions="true" >
+366-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:332:13-47
+367            <meta-data
+367-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:253:13-255:57
+368                android:name="android.support.FILE_PROVIDER_PATHS"
+368-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:254:17-67
+369                android:resource="@xml/openapipath" />
+369-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:255:17-54
+370        </provider>
+371
+372        <activity
+372-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:338:9-340:125
+373            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaWebViewActivity"
+373-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:339:13-112
+374            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode" />
+374-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:340:13-122
+375
+376        <activity-alias
+376-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:342:9-345:125
+377            android:name="com.tencent.luggage.ui.WxaSimpleWebViewActivity"
+377-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:343:13-75
+378            android:enabled="true"
+378-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:344:13-35
+379            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaWebViewActivity" />
+379-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:345:13-122
+380
+381        <activity
+381-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:347:9-349:67
+382            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSettingActivity"
+382-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:348:13-112
+383            android:theme="@style/WeUITheme.NoTitleTranslucent" />
+383-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:349:13-64
+384
+385        <activity-alias
+385-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:351:9-354:125
+386            android:name="com.tencent.luggage.setting.ui.WxaSettingActivity"
+386-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:352:13-77
+387            android:enabled="true"
+387-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:353:13-35
+388            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSettingActivity" />
+388-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:354:13-122
+389
+390        <activity
+390-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:356:9-359:84
+391            android:name="com.tencent.luggage.ui.WxaAlertActivity"
+391-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:357:13-67
+392            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+392-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:358:13-122
+393            android:theme="@style/Theme.LuggageApp.Standalone.WxaSetting.Dialog" />
+393-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:359:13-81
+394        <activity android:name="com.tencent.luggage.ui.BlankActivity" />
+394-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:360:9-73
+394-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:360:19-70
+395        <activity
+395-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:361:9-364:48
+396            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaAuthorizeDetailActivity"
+396-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:362:13-120
+397            android:configChanges="keyboardHidden|orientation|screenSize"
+397-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:363:13-74
+398            android:theme="@style/WeUITheme" />
+398-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:364:13-45
+399
+400        <activity-alias
+400-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:366:9-369:133
+401            android:name="com.tencent.luggage.setting.ui.WmpfAuthorizeDetailUI"
+401-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:367:13-80
+402            android:enabled="true"
+402-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:368:13-35
+403            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaAuthorizeDetailActivity" />
+403-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:369:13-130
+404
+405        <activity
+405-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:371:9-373:48
+406            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaUserInfoAuthorizeActivity"
+406-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:372:13-122
+407            android:theme="@style/WeUITheme" />
+407-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:373:13-45
+408
+409        <activity-alias
+409-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:375:9-378:135
+410            android:name="com.tencent.luggage.setting.ui.AppBrandUserInfoAuthorizeUI"
+410-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:376:13-86
+411            android:enabled="true"
+411-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:377:13-35
+412            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaUserInfoAuthorizeActivity" />
+412-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:378:13-132
+413
+414        <activity
+414-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:380:9-382:68
+415            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSubscribeMsgManageActivity"
+415-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:381:13-123
+416            android:theme="@style/wmpf_round_checkbox_WeUITheme" />
+416-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:382:13-65
+417
+418        <activity-alias
+418-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:384:9-387:136
+419            android:name="com.tencent.luggage.setting.ui.BizSubscribeMsgManagerUI"
+419-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:385:13-83
+420            android:enabled="true"
+420-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:386:13-35
+421            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSubscribeMsgManageActivity" />
+421-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:387:13-133
+422
+423        <activity
+423-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:389:9-391:48
+424            android:name="com.tencent.luggage.ui.WxaMusicActivity"
+424-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:390:13-67
+425            android:theme="@style/WeUITheme" />
+425-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:391:13-45
+426
+427        <provider
+427-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:393:9-401:20
+428            android:name="com.tencent.luggage.jsapi.file.LuggageOpenDocFileProvider"
+428-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:394:13-85
+429            android:authorities="com.tencent.dountapp.shareFileProvide"
+429-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:395:13-68
+430            android:exported="false"
+430-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:396:13-37
+431            android:grantUriPermissions="true" >
+431-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:397:13-47
+432            <meta-data
+432-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:253:13-255:57
+433                android:name="android.support.FILE_PROVIDER_PATHS"
+433-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:254:17-67
+434                android:resource="@xml/share_file_path" />
+434-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:255:17-54
+435        </provider>
+436
+437        <activity
+437-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:403:9-406:75
+438            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaScanCodeActivity"
+438-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:404:13-113
+439            android:screenOrientation="portrait"
+439-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:405:13-49
+440            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+440-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:406:13-72
+441
+442        <activity-alias
+442-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:408:9-411:126
+443            android:name="com.tencent.luggage.scanner.scanner.ui.BaseScanUI"
+443-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:409:13-77
+444            android:enabled="true"
+444-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:410:13-35
+445            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaScanCodeActivity" />
+445-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:411:13-123
+446
+447        <activity
+447-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:413:9-416:75
+448            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaLaunchProxyActivity"
+448-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:414:13-116
+449            android:theme="@style/WeUITheme.NoTitleTranslucent"
+449-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:415:13-64
+450            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+450-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:416:13-72
+451
+452        <activity-alias
+452-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:418:9-421:129
+453            android:name="com.tencent.luggage.ui.WxaLaunchProxyActivity"
+453-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:419:13-73
+454            android:enabled="true"
+454-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:420:13-35
+455            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaLaunchProxyActivity" />
+455-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:421:13-126
+456
+457        <activity
+457-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:423:9-426:67
+458            android:name="com.tencent.luggage.ui.WxaPreviewImageUI"
+458-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:424:13-68
+459            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+459-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:425:13-122
+460            android:theme="@style/WeUITheme.NoTitleTranslucent" />
+460-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:426:13-64
+461
+462        <service
+462-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:428:9-430:40
+463            android:name="com.tencent.luggage.crash.WxaCrashUploaderService"
+463-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:429:13-77
+464            android:exported="false" />
+464-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:430:13-37
+465
+466        <provider
+466-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:432:9-440:20
+467            android:name="com.tencent.luggage.wxa.WxaFileExportContentProvider"
+467-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:433:13-80
+468            android:authorities="com.tencent.dountapp.external.fileprovider"
+468-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:434:13-73
+469            android:exported="false"
+469-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:435:13-37
+470            android:grantUriPermissions="true" >
+470-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:436:13-47
+471            <meta-data
+471-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:253:13-255:57
+472                android:name="android.support.FILE_PROVIDER_PATHS"
+472-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:254:17-67
+473                android:resource="@xml/file_paths" />
+473-->[com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.3] /Users/zhangchen/.gradle/caches/transforms-2/files-2.1/0ffff97601344532b2c1586f904ef837/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.3/AndroidManifest.xml:255:17-54
+474        </provider>
+475    </application>
+476
+477</manifest>

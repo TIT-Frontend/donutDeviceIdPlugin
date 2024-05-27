@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="picker_time_apr">APR</string>
+    <string name="picker_time_aug">AUG</string>
+    <string name="picker_time_dec">DEC</string>
+    <string name="picker_time_feb">FEB</string>
+    <string name="picker_time_jan">JAN</string>
+    <string name="picker_time_jul">JUL</string>
+    <string name="picker_time_jun">JUN</string>
+    <string name="picker_time_mar">MAR</string>
+    <string name="picker_time_may">MAY</string>
+    <string name="picker_time_nov">NOV</string>
+    <string name="picker_time_oct">OCT</string>
+    <string name="picker_time_sept">SEPT</string>
+    <string name="pickerview_cancel">Cancel</string>
+    <string name="pickerview_day"> </string>
+    <string name="pickerview_hours"> </string>
+    <string name="pickerview_minutes"> </string>
+    <string name="pickerview_month"> </string>
+    <string name="pickerview_seconds"> </string>
+    <string name="pickerview_submit">Confirm</string>
+    <string name="pickerview_year"> </string>
+</resources>

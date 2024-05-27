@@ -1,0 +1,18 @@
+{
+  "toolkitVersion": "0.10.0",
+  "sdkVersion": "1.0.11",
+  "enableVConsole": "open",
+  "appMenuEnable": true,
+  "sdkKey": "xxx",
+  "sdkKeySecret": "xxxx",
+  "packageName": "com.xxxxxx.xxx",
+  "miniModuleId": "wx03804765e7d2096d",
+  "useExtendedSdk": {},
+  "version": "0.0.1",
+  "versionCode": 100,
+  "usePluginSdk": {},
+  "scheme": "__placeholder__",
+  "targetSdkVersion": 29,
+  "privacyPopup": true,
+  "splashscreen": false
+}

@@ -1,0 +1,60 @@
+{
+  "updateTime": "2023.12.13 11:18:45",
+  "version": "2.27.3",
+  "features": {
+    "pruneWxConfigByPage": true,
+    "injectGameContextPlugin": true,
+    "lazyCodeLoading2": true,
+    "lazyCodeLoadingForDevTool": true,
+    "injectAppSeparatedPlugin": true,
+    "nativeTrans": true,
+    "gameLive": true,
+    "skyline": true,
+    "supportInvokeWithAppId": true,
+    "wkFeatureVersion": 4,
+    "delayedServiceCodeCache": true,
+    "gameLiveInvite": true,
+    "expt": [
+      "clicfg_appbrand_ios_native_download_new",
+      "clicfg_appbrand_native_download",
+      "clicfg_appbrand_ios_native_socket_wcwss_new",
+      "clicfg_navigation_use_scl_alert_v5",
+      "clicfg_appbrand_ios_native_readfile",
+      "clicfg_appbrand_native_readfile",
+      "clicfg_appbrand_ios_game_split_multi_plugincode",
+      "clicfg_appbrand_game_split_multi_plugincode",
+      "clicfg_appbrand_android_tcp_buffer",
+      "clicfg_appbrand_ios_tcp_buffer",
+      "clicfg_weapp_weak_net_predict_local",
+      "clicfg_wa_ar_iosurface_switch",
+      "clicfg_canvas_use_magic_brush",
+      "clicfg_appbrand_report_trace_event",
+      "clicfg_appbrand_ios_allow_inner_context_use_webaudio",
+      "clicfg_appbrand_android_reject_inner_context_use_webaudio",
+      "clicfg_appbrand_skyline_text_style",
+      "clicfg_appbrand_ios_free_httpdns_sdk_cache",
+      "clicfg_appbrand_android_free_httpdns_sdk_cache",
+      "clicfg_appbrand_ios_inneraudio2webaudio",
+      "clicfg_appbrand_android_inneraudio2webaudio",
+      "clicfg_appbrand_game_split_multi_plugincode"
+    ],
+    "snapshotConfig": {
+      "app:main": [
+        "WAServiceMainContext.js"
+      ],
+      "app:sub": [
+        "WASubContext.js"
+      ],
+      "app:subRender": [
+        "WARenderContext.js"
+      ],
+      "game:main": [
+        "WAGame.js"
+      ],
+      "game:sub": [
+        "WAGameSubContext.js"
+      ]
+    }
+  },
+  "debugOptions": {}
+}

@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
+                    }
+                }
+            ]
+        }
+    ]
+}

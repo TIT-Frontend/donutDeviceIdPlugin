@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="app_brand_actionbar_capsule_view_right_margin_wxa">24dp</dimen>
+    <dimen name="app_brand_actionbar_height">52dp</dimen>
+    <dimen name="app_brand_actionbar_home_nav_area_margin_left">@dimen/app_brand_actionbar_left_margin</dimen>
+    <dimen name="app_brand_actionbar_left_margin">24dp</dimen>
+    <item format="float" name="wmpf_qrlogin_appname_vertical_percent_value" type="dimen">0.0371</item>
+    <item format="float" name="wmpf_qrlogin_background_image_vertical_percent_value" type="dimen">0.99</item>
+    <item format="float" name="wmpf_qrlogin_body_vertical_percent_value" type="dimen">0.34</item>
+    <dimen name="wmpf_qrlogin_image_frame_max_width">188dp</dimen>
+    <item format="float" name="wmpf_qrlogin_image_frame_vertical_percent_value" type="dimen">0.6</item>
+    <item format="float" name="wmpf_qrlogin_wechat_icon_vertical_percent_value" type="dimen">0.04</item>
+    <item format="float" name="wmpf_setting_body_vertical_percent_value" type="dimen">0.44</item>
+    <fraction name="wmpf_qrlogin_appname_vertical_percent">@dimen/wmpf_qrlogin_appname_vertical_percent_value</fraction>
+    <fraction name="wmpf_qrlogin_background_image_vertical_percent">@dimen/wmpf_qrlogin_background_image_vertical_percent_value</fraction>
+    <fraction name="wmpf_qrlogin_body_vertical_percent">@dimen/wmpf_qrlogin_body_vertical_percent_value</fraction>
+    <fraction name="wmpf_qrlogin_image_frame_vertical_percent">@dimen/wmpf_qrlogin_image_frame_vertical_percent_value</fraction>
+    <fraction name="wmpf_qrlogin_wechat_icon_vertical_percent">@dimen/wmpf_qrlogin_wechat_icon_vertical_percent_value</fraction>
+    <fraction name="wmpf_setting_body_vertical_percent">@dimen/wmpf_setting_body_vertical_percent_value</fraction>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+    <item name="tabGravity">center</item>
+    <item name="tabMode">fixed</item>
+  </style>
+</resources>

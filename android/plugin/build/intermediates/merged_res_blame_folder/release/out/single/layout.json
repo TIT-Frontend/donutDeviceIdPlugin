@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_navigation_item_separator.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d47816087778382cf46e6d3905c4d0d7/core-1.0.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_layout_snackbar.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_navigation_menu_item.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_tooltip.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_tooltip.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/mtrl_layout_snackbar.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_layout_tab_text.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_navigation_item.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_cascading_menu_item_layout.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_text_input_password_icon.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/mtrl_layout_snackbar_include.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d47816087778382cf46e6d3905c4d0d7/core-1.0.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_navigation_item_header.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_navigation_menu.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_layout_tab_icon.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_menu_item_action_area.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/layout/abc_screen_toolbar.xml"
+    }
+]

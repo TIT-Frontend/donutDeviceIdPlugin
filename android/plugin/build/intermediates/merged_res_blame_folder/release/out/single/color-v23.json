@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

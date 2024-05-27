@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d47816087778382cf46e6d3905c4d0d7/core-1.0.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d47816087778382cf46e6d3905c4d0d7/core-1.0.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d47816087778382cf46e6d3905c4d0d7/core-1.0.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/plugin/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/zhangchen/.gradle/caches/transforms-2/files-2.1/d47816087778382cf46e6d3905c4d0d7/core-1.0.0/res/layout-v21/notification_action.xml"
+    }
+]

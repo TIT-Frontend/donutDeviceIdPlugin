@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.dountapp"
+    android:versionCode="100"
+    android:versionName="0.0.1" >
+
+    <uses-sdk
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.INTERNET" /> <!-- 网络通信 -->
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <queries package="com.tencent.dountapp" >
+        <package android:name="com.tencent.mm" />
+
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" >
+            </action>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" >
+            </action>
+        </intent>
+    </queries>
+
+    <!-- 适配Android R包可见性 结束 -->
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.VIBRATE" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.ALARM_LOCK" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.tencent.dountapp.vfs.broadcast"
+        android:protectionLevel="signature" />
+
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.tencent.dountapp.vfs.broadcast" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.CAMERA"
+        android:required="true" />
+
+    <uses-feature
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.BLUETOOTH" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.NFC" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.tencent.dountapp.voiceassist.permission.READ"
+        android:protectionLevel="normal" />
+    <permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.tencent.dountapp.voiceassist.permission.WRITE"
+        android:protectionLevel="normal" />
+
+    <application
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.tencent.dountapp.DemoApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:requestLegacyExternalStorage="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.App.Global"
+        android:usesCleartextTraffic="true" >
+
+        <!-- 兼容支持 -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.tencent.dountapp.ui.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:exported="true"
+            android:theme="@style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="__placeholder__" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.dountapp.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.tencent.dountapp.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity0"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:process=":wxa_container0"
+            android:screenOrientation="behind"
+            android:theme="@style/WxaAppContainerTheme" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity0"
+            android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity0" />
+
+        <activity
+            android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity1"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:process=":wxa_container1"
+            android:screenOrientation="behind"
+            android:theme="@style/WxaAppContainerTheme" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity1"
+            android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity1" />
+
+        <activity
+            android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity2"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:process=":wxa_container2"
+            android:screenOrientation="behind"
+            android:theme="@style/WxaAppContainerTheme" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity2"
+            android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity2" />
+
+        <activity
+            android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity3"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:process=":wxa_container3"
+            android:screenOrientation="behind"
+            android:theme="@style/WxaAppContainerTheme" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity3"
+            android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity3" />
+
+        <activity
+            android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity4"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:process=":wxa_container4"
+            android:screenOrientation="behind"
+            android:theme="@style/WxaAppContainerTheme" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity4"
+            android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity4" />
+
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_OWNER"
+            android:value="coverguo" />
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_HOSTNAME"
+            android:value="null" />
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_TIME"
+            android:value="2023-12-15 16:17:46" />
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_REV"
+            android:value="fbd024f08109e12b34e54004e92373b11114cca0" />
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_SDK_VERSION"
+            android:value="2.1.0" />
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_SDK_VERSION_INT"
+            android:value="0x22010001" />
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_UPSTREAM_CLIENT_VERSION"
+            android:value="0x28000730" />
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_WEBGL_MAP_COMP"
+            android:value="false" />
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_SUPPORT_GAME"
+            android:value="false" />
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_USE_MINIFIED_LITEAV_SDK"
+            android:value="false" />
+        <meta-data
+            android:name="com.tencent.wmpf.BuildInfo.BUILD_PIPELINE_NUM"
+            android:value="-1" />
+
+        <activity
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.WxaProfileActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode" />
+        <activity
+            android:name="com.tencent.luggage.wxaapi.internal.ui.WxaScanResultDelegateActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode" />
+        <activity
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerToFrontProxyActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:screenOrientation="behind" />
+
+        <service
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCMainService"
+            android:exported="false" />
+        <service
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService0"
+            android:exported="false"
+            android:process=":wxa_container0" />
+        <service
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService1"
+            android:exported="false"
+            android:process=":wxa_container1" />
+        <service
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService2"
+            android:exported="false"
+            android:process=":wxa_container2" />
+        <service
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService3"
+            android:exported="false"
+            android:process=":wxa_container3" />
+        <service
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService4"
+            android:exported="false"
+            android:process=":wxa_container4" />
+
+        <activity
+            android:name="com.tencent.mm.ui.AlertActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/WeUITheme.NoTitleTranslucent" />
+
+        <provider
+            android:name="com.luck.picture.lib.basic.PictureFileProvider"
+            android:authorities="com.tencent.dountapp.luckProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/ps_file_paths" />
+        </provider>
+
+        <service
+            android:name="com.luck.picture.lib.service.ForegroundService"
+            android:enabled="true"
+            android:foregroundServiceType="location" />
+
+        <activity
+            android:name="com.luck.picture.lib.basic.PictureSelectorSupporterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:multiprocess="true"
+            android:theme="@style/Base.Theme.NoActionBar" />
+        <activity
+            android:name="com.luck.picture.lib.basic.PictureSelectorTransparentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:multiprocess="true"
+            android:theme="@style/Picture.Theme.Translucent" />
+
+        <meta-data
+            android:name="use_xweb_camera"
+            android:value="true" />
+        <meta-data
+            android:name="use_cpu_crop"
+            android:value="false" />
+
+        <service
+            android:name="com.tencent.mm.plugin.appbrand.jsapi.nfc.hce.HCEService"
+            android:exported="true"
+            android:permission="android.permission.BIND_NFC_SERVICE" >
+            <intent-filter>
+                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.cardemulation.host_apdu_service"
+                android:resource="@xml/hce_apdu" />
+        </service>
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="false" />
+        <uses-library
+            android:name="com.here.android"
+            android:required="false" />
+
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="Q3PBZ-TDH3R-4XEWO-WJUMV-YBAUJ-MQBAS" />
+        <meta-data
+            android:name="TencentMapSubKey"
+            android:value="E6FBZ-OLSCQ-UIU5C-GWLJ7-ABUPT-V7FJX" />
+
+        <activity
+            android:name="com.tencent.mm.plugin.appbrand.jsapi.lbs.LbsProxyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/WeUITheme.NoTitleTranslucent" />
+        <activity
+            android:name="com.tencent.luggage.sdk.customize.impl.FullSdkExternalToolsHelper$SimpleWebViewActivity"
+            android:launchMode="singleTask" />
+
+        <provider
+            android:name="com.tencent.luggage.storage.StandaloneCriticalDataProvider"
+            android:authorities="com.tencent.dountapp.wxa_critical_content"
+            android:exported="false" />
+
+        <activity
+            android:name="com.tencent.luggage.ui.OpenSDKBridgedActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.tencent.luggage.opensdk.OpenSDKApiContentProvider"
+            android:authorities="com.tencent.dountapp.openapidata"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/openapipath" />
+        </provider>
+
+        <activity
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaWebViewActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.ui.WxaSimpleWebViewActivity"
+            android:enabled="true"
+            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaWebViewActivity" />
+
+        <activity
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSettingActivity"
+            android:theme="@style/WeUITheme.NoTitleTranslucent" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.setting.ui.WxaSettingActivity"
+            android:enabled="true"
+            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSettingActivity" />
+
+        <activity
+            android:name="com.tencent.luggage.ui.WxaAlertActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:theme="@style/Theme.LuggageApp.Standalone.WxaSetting.Dialog" />
+        <activity android:name="com.tencent.luggage.ui.BlankActivity" />
+        <activity
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaAuthorizeDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/WeUITheme" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.setting.ui.WmpfAuthorizeDetailUI"
+            android:enabled="true"
+            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaAuthorizeDetailActivity" />
+
+        <activity
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaUserInfoAuthorizeActivity"
+            android:theme="@style/WeUITheme" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.setting.ui.AppBrandUserInfoAuthorizeUI"
+            android:enabled="true"
+            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaUserInfoAuthorizeActivity" />
+
+        <activity
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSubscribeMsgManageActivity"
+            android:theme="@style/wmpf_round_checkbox_WeUITheme" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.setting.ui.BizSubscribeMsgManagerUI"
+            android:enabled="true"
+            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSubscribeMsgManageActivity" />
+
+        <activity
+            android:name="com.tencent.luggage.ui.WxaMusicActivity"
+            android:theme="@style/WeUITheme" />
+
+        <provider
+            android:name="com.tencent.luggage.jsapi.file.LuggageOpenDocFileProvider"
+            android:authorities="com.tencent.dountapp.shareFileProvide"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/share_file_path" />
+        </provider>
+
+        <activity
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaScanCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.scanner.scanner.ui.BaseScanUI"
+            android:enabled="true"
+            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaScanCodeActivity" />
+
+        <activity
+            android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaLaunchProxyActivity"
+            android:theme="@style/WeUITheme.NoTitleTranslucent"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <activity-alias
+            android:name="com.tencent.luggage.ui.WxaLaunchProxyActivity"
+            android:enabled="true"
+            android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaLaunchProxyActivity" />
+
+        <activity
+            android:name="com.tencent.luggage.ui.WxaPreviewImageUI"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:theme="@style/WeUITheme.NoTitleTranslucent" />
+
+        <service
+            android:name="com.tencent.luggage.crash.WxaCrashUploaderService"
+            android:exported="false" />
+
+        <provider
+            android:name="com.tencent.luggage.wxa.WxaFileExportContentProvider"
+            android:authorities="com.tencent.dountapp.external.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

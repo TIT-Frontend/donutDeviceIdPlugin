@@ -1,0 +1,67 @@
+{
+    "android": [
+
+    ],
+    "all": [
+        "WAAccelerateWorker.js",
+        "WAGame.js",
+        "WAGameFrame.html",
+        "WAGameSubContext.js",
+        "WAGameSubContextFrame.html",
+        "WAGameVConsole.html",
+        "WAGfxEmsc.js",
+        "WAGfxEmsc.wasm",
+        "WAPageFrame.html",
+        "WAPerf.js",
+        "WARemoteDebug.js",
+        "WASclBackend.wasm",
+        "WAServiceMainContext.js",
+        "WAServiceRemoteDebug.js",
+        "WASourceMap.js",
+        "WASplashadWorker.js",
+        "WASubContext.js",
+        "WAVConsole.js",
+        "WAVersion.json",
+        "WAWebview.js",
+        "WAWorker.js",
+        "WABuiltinLibs.json",
+
+        "WAAd.js",
+        "WAProtobuf.js",
+        "WAKanata.js",
+        "WAMidasSDK.js",
+        "WAWxGa.js",
+        "WASubGameSclEngine.js",
+        "WACloud.js",
+        "WAMinigameLive.js",
+        "WAPixi.js",
+        "WARenderContext.js",
+        "WAXRFrameRenderContext.js",
+
+        "WASkylineStyle.css.js",
+        "WASkylineStyle.fpcssb",
+        "WASkylineStyleV2.css.js",
+        "WASkylineStyleV2.fpcssb",
+        "WARenderContext.js",
+        "WAStyleIndex.fpiib",
+
+        "WAalberttiny489kvocab.txt",
+        "WAminivocab.txt",
+        "WARecordSDK.js"
+    ],
+    "ios": [
+        "WAAutoService.js",
+        "WAAutoWebview.js",
+        "WAWKWorker.html",
+        "WAService.js"
+    ],
+    "ignore": [
+        "Archive.zip",
+        "rev.json",
+        "sourcemaps"
+    ],
+    "pc": [],
+    "devtool": [
+        "WAXRFrameRenderContextDevTools.js"
+    ]
+}

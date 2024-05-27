@@ -1,0 +1,12 @@
+# compiler: R8
+# compiler_version: 2.1.86
+# pg_map_id: 52427e7
+# common_typos_disable
+com.donut.wx033a6b34f2c7ea15.BuildConfig -> a.a.a.a:
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String LIBRARY_PACKAGE_NAME -> b
+    java.lang.String PLUGIN_ID -> d
+com.donut.wx033a6b34f2c7ea15.TestNativePlugin -> a.a.a.b:
+    java.lang.String TAG -> a
+    java.lang.String getAndroidId(org.json.JSONObject,android.app.Activity) -> a

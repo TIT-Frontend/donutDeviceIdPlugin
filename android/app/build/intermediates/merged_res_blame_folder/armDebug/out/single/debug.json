@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/drawable-hdpi_splashscreen.xml.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/drawable-hdpi/splashscreen.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/drawable_progress_medium_holo.xml.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/drawable/progress_medium_holo.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/drawable-xhdpi_wxa_spinner_48_outer_holo.png.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/drawable-xhdpi/wxa_spinner_48_outer_holo.png"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/drawable-xhdpi_wxa_spinner_white_48_outer_holo.png.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/drawable-xhdpi/wxa_spinner_white_48_outer_holo.png"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/drawable_progress_large_holo.xml.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/drawable/progress_large_holo.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/layout_layout.xml.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/layout/layout.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/drawable_progress_white_medium_holo.xml.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/drawable/progress_white_medium_holo.xml"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/build/intermediates/res/merged/arm/debug/layout_layout_splashscreen.xml.flat",
+        "source": "/Users/zhangchen/WeChatProjects/miniappplugin-9/android/app/src/main/res/layout/layout_splashscreen.xml"
+    }
+]
